@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.63697917"
-     inkscape:cx="835.9771"
-     inkscape:cy="541.61897"
+     inkscape:cx="717.44889"
+     inkscape:cy="543.18888"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -86,8 +86,8 @@
      id="layer1">
     <path
        id="rect1200"
-       style="fill:url(#linearGradient2794);fill-opacity:1;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:4.5;paint-order:fill markers stroke;stroke:url(#linearGradient463)"
-       d="M 223.24292,0 H 508 V 285.75 H 145.2103 Z"
+       style="fill:url(#linearGradient2794);fill-opacity:1;stroke:url(#linearGradient463);stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:4.5;paint-order:fill markers stroke"
+       d="M 223.24292,0 H 508 v 285.75 l -301.73001,0 z"
        sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

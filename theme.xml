@@ -31,6 +31,7 @@
     <colorScheme name="space">
         <variables>
             <background>./space.mp4</background>
+            <backgroundImage>./spaceback.webp</backgroundImage>
             <outlineColor>FFFFFF</outlineColor>
             <satLevel>1</satLevel>
         </variables>
@@ -38,6 +39,7 @@
     <colorScheme name="static">
         <variables>
             <background>./static.mp4</background>
+            <backgroundImage>./staticback.webp</backgroundImage>
             <outlineColor>FFFFFF</outlineColor>
             <satLevel>0</satLevel>
         </variables>
@@ -45,6 +47,7 @@
     <colorScheme name="retro">
         <variables>
             <background>./70.mp4</background>
+            <backgroundImage>./70back.webp</backgroundImage>
             <outlineColor>000000</outlineColor>
             <satLevel>1</satLevel>
         </variables>
@@ -53,6 +56,7 @@
     <colorScheme name="print">
         <variables>
             <background>./retro.mp4</background>
+            <backgroundImage>./retroback.webp</backgroundImage>
             <outlineColor>000000</outlineColor>
             <satLevel>1</satLevel>
         </variables>
@@ -63,6 +67,7 @@
     <colorScheme name="space">
         <variables>
             <background>./space.mp4</background>
+            <backgroundImage>./spaceback.webp</backgroundImage>
             <outlineColor>FFFFFF</outlineColor>
             <satLevel>0.5</satLevel>
         </variables>
@@ -70,6 +75,7 @@
     <colorScheme name="static">
         <variables>
             <background>./static.mp4</background>
+            <backgroundImage>./staticback.webp</backgroundImage>
             <outlineColor>FFFFFF</outlineColor>
             <satLevel>.5</satLevel>
         </variables>
@@ -77,6 +83,7 @@
     <colorScheme name="retro">
         <variables>
             <background>./70.mp4</background>
+            <backgroundImage>./70back.webp</backgroundImage>
             <outlineColor>000000</outlineColor>
             <satLevel>0</satLevel>
         </variables>
@@ -85,6 +92,7 @@
     <colorScheme name="print">
         <variables>
             <background>./retro.mp4</background>
+            <backgroundImage>./retroback.webp</backgroundImage>
             <outlineColor>000000</outlineColor>
             <satLevel>0.5</satLevel>
         </variables>
@@ -104,22 +112,32 @@
     <view name="system, gamelist">
         <video name="background1">
                 <pos>0 0</pos>
-                <size>1 1</size>
+                <cropSize>1 1</cropSize>
                 <path>${background}</path>
                 <brightness>0.5</brightness>
                 <delay>0</delay>
                 <saturation>${satLevel}</saturation>
                 <fadeInTime>0</fadeInTime>
                 <audio>false</audio>
-                <zIndex>0</zIndex>
+                <zIndex>1</zIndex>
             </video>
+            <image name="gamelist-background">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <cropSize>1 1</cropSize>
+                <zIndex>0</zIndex>
+                <path>${backgroundImage}</path>
+                <saturation>${satLevel}</saturation>
+                
+                <brightness>0.5</brightness>
+            </image>
     </view>
     </variant>
     <variant name="masktextsys, maskgridsys, logotextsys, logogridsys">
         <view name="system, gamelist">
             <video name="background1">
                     <pos>0 0</pos>
-                    <size>1 1</size>
+                    <cropSize>1 1</cropSize>
                     <path>${background}</path>
                     <brightness>1</brightness>
                     <delay>0</delay>
@@ -127,8 +145,18 @@
                     <color>${systemColor}</color>
                     <fadeInTime>0</fadeInTime>
                     <audio>false</audio>
-                    <zIndex>0</zIndex>
+                    <zIndex>1</zIndex>
                 </video>
+                <image name="gamelist-background">
+                    <origin>0 0</origin>
+                    <pos>0 0</pos>
+                    <cropSize>1 1</cropSize>
+                    <zIndex>0</zIndex>
+                    <path>${backgroundImage}</path>
+                    <saturation>${satLevel}</saturation>
+                    <color>${systemColor}</color>
+                    <brightness>1</brightness>
+                </image>
                 
         </view>
         </variant>
@@ -310,11 +338,11 @@
             <carousel name="text">
                 <type>vertical</type>
                 <imageType>none</imageType>
-                <maxItemCount>5</maxItemCount>
+                <maxItemCount>4.7</maxItemCount>
                 <itemScale>1</itemScale>
                 <origin>1 0.5</origin>
                 <pos>0.99 0.5</pos>
-                <size>0.9 0.95</size>
+                <size>0.9 0.9</size>
                 <itemSize>0.52 0.14</itemSize>
                 <systemNameSuffix>false</systemNameSuffix>
                 <textColor>FFFFFF</textColor>
