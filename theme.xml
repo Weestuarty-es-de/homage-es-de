@@ -162,9 +162,7 @@
         </variant>
     <variant name="all">
         <view name="system">
-            <gameselector name="game">
-                <gameCount>1</gameCount>
-            </gameselector>
+           
 
             <carousel name="system_carousel">
                 <pos>0 0.4</pos>
@@ -224,11 +222,9 @@
     </variant>
     <variant name="logotext, logogrid,logotextsys, logogridsys">
         <view name="system">
-            <image name="background1">
-                <brightness>-1.5</brightness>
-            </image>
             <carousel name="system_carousel">
                 <staticImage>${carouselImage}</staticImage>
+                <defaultImage>./system/custom/logo/${system.theme}.svg</defaultImage>
                 <imageColor>${outlineColor}</imageColor>
                 <textSelectedColor>00000000</textSelectedColor>
             </carousel>
@@ -619,13 +615,6 @@
                 <zIndex>9</zIndex>
             </image>
            
-            <image name="bottomBase2">
-                <pos>0 0</pos>
-                <size>1 1</size>
-                <path>./space.webp</path>
-                <color>000000cc</color>
-                <zIndex>1</zIndex>
-            </image>
             <image name="bottomBase3">
                 <pos>0 0.95</pos>
                 <size>1 0.05</size>
