@@ -2,45 +2,7 @@
     <include>./../theme.xml</include>
     <variant name="masktext,masktextsys, logotext,logotextsys">
         <view name="gamelist">
-            <carousel name="text">
-                <type>vertical</type>
-                <defaultImage>./../system/custom/logo/${system.theme}.svg</defaultImage>
-                <maxItemCount>4.7</maxItemCount>
-                <itemScale>1</itemScale>
-                <origin>1 0.5</origin>
-                <pos>0.99 0.5</pos>
-                <size>0.9 0.9</size>
-                <itemSize>0.52 0.14</itemSize>
-                <systemNameSuffix>false</systemNameSuffix>
-                <textColor>FFFFFF</textColor>
-                <itemHorizontalAlignment>right</itemHorizontalAlignment>
-                <selectedItemOffset>-0.45 0.0</selectedItemOffset>
-                <textSelectedColor>000000</textSelectedColor>
-                <letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
-                <zIndex>10</zIndex>
-            </carousel>
-            <text name="gamename2">
-                <pos>0.5 0.5</pos>
-                <size>.95 0.125</size>
-                <origin>0.5 0.5</origin>
-                <metadata>name</metadata>
-                <fontSize>${gameName}</fontSize>
-                <systemNameSuffix>false</systemNameSuffix>
-                <fontPath>./../fonts/sansxb.ttf</fontPath>
-                <color>000000</color>
-                <backgroundColor>FFFFFF</backgroundColor>
-                <backgroundCornerRadius>0.25</backgroundCornerRadius>
-                <lineSpacing>0.9</lineSpacing>
-                <horizontalAlignment>center</horizontalAlignment>
-            </text>
-            <image name="bottomBase10">
-                <pos>0.25 0.5</pos>
-                <maxSize>0.25 0.075</maxSize>
-                <origin>00.5 0.5</origin>
-                <path>./../system/logos/system-logo-white/${system.theme}.svg</path>
-                <color>00000077</color>
-                <zIndex>10</zIndex>
-            </image>
+            
             <image name="bottomBase11">
                 <pos>0.5 0.5</pos>
                 <size>.95 0.125</size>
@@ -62,21 +24,6 @@
                 <cornerRadius>0.25</cornerRadius>
                 <zIndex>9</zIndex>
             </image>
-            <text name="gamename2">
-                <pos>0.5 0.8725</pos>
-                <size>.95 0.125</size>
-                <origin>0.5 0.5</origin>
-                <metadata>developer</metadata>
-                <fontSize>0.06</fontSize>
-                <systemNameSuffix>false</systemNameSuffix>
-                <fontPath>./../fonts/sansxb.ttf</fontPath>
-                <color>000000</color>
-                <backgroundColor>FFFFFF</backgroundColor>
-                <backgroundCornerRadius>0.25</backgroundCornerRadius>
-                <lineSpacing>0.9</lineSpacing>
-                <horizontalAlignment>center</horizontalAlignment>
-                <zIndex>50</zIndex>
-            </text>
             <grid name="grid">
                 <origin>0 0</origin>
                 <itemSize>${gridItemSize}</itemSize>
