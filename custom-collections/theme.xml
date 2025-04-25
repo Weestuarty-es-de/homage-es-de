@@ -2,7 +2,12 @@
     <include>./../theme.xml</include>
     <variant name="masktext,masktextsys, logotext,logotextsys">
         <view name="gamelist">
-            
+            <carousel name="text">
+                <textSelectedColor>000000</textSelectedColor>
+                <letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
+                <zIndex>10</zIndex>
+            </carousel>
+           
             <image name="bottomBase11">
                 <pos>0.5 0.5</pos>
                 <size>.95 0.125</size>
@@ -24,7 +29,7 @@
                 <cornerRadius>0.25</cornerRadius>
                 <zIndex>9</zIndex>
             </image>
-            <grid name="grid">
+              <grid name="grid">
                 <origin>0 0</origin>
                 <itemSize>${gridItemSize}</itemSize>
                 <pos>0.5525 0.015</pos>
