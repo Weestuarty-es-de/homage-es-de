@@ -386,6 +386,10 @@
                     <customIcon icon="icon_battery_high">./images/b75.svg</customIcon>
                     <customIcon icon="icon_battery_medium">./images/b50.svg</customIcon>
                     <customIcon icon="icon_battery_low">./images/b25.svg</customIcon>
+                    <backgroundColor>000000AA</backgroundColor>
+        <backgroundVerticalPadding>0.005 0.005</backgroundVerticalPadding>
+        <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+        <backgroundCornerRadius>0.5</backgroundCornerRadius>
                 <entries>all</entries>
                 </systemstatus>
                 <clock name="menuclock">
@@ -474,6 +478,7 @@
                 <customBadgeIcon badge="controller">./system/badges/controller.svg</customBadgeIcon>
                 <customBadgeIcon badge="altemulator">./system/badges/altemulator.svg</customBadgeIcon>
                 <customBadgeIcon badge="manual">./system/badges/manual.svg</customBadgeIcon>
+                
                 <zIndex>20</zIndex>
             </badges>
             <helpsystem name="help">
@@ -533,6 +538,10 @@
                     <customIcon icon="icon_battery_high">./images/b75.svg</customIcon>
                     <customIcon icon="icon_battery_medium">./images/b50.svg</customIcon>
                     <customIcon icon="icon_battery_low">./images/b25.svg</customIcon>
+                    <backgroundColor>000000AA</backgroundColor>
+        <backgroundVerticalPadding>0.005 0.005</backgroundVerticalPadding>
+        <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+        <backgroundCornerRadius>0.5</backgroundCornerRadius>
                 <entries>all</entries>
                 </systemstatus>
                 <clock name="menuclock">
@@ -542,9 +551,13 @@
                     <size>0.075 0.04</size>
                     <origin>0 0</origin>
                     <fontPath>./fonts/sansxb.ttf</fontPath>
-                    <horizontalAlignment>left</horizontalAlignment>
+                    <horizontalAlignment>center</horizontalAlignment>
                     <verticalAlignment>center</verticalAlignment>
                     <color>${baseColor}</color>
+                    <backgroundColor>000000AA</backgroundColor>
+        <backgroundVerticalPadding>0.005 0.005</backgroundVerticalPadding>
+        <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+        <backgroundCornerRadius>0.5</backgroundCornerRadius>
                 </clock>
             <badges name="badges">
                 <pos>0.21125 0.715</pos>
