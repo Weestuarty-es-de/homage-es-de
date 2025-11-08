@@ -79,6 +79,9 @@
    <colorScheme name="static">
       <label>Smoke</label>
    </colorScheme>
+   <colorScheme name="vhs">
+      <label>vhs</label>
+   </colorScheme>
 
    <suppressTransitionProfiles>
       <entry>builtin-instant</entry>

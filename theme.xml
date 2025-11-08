@@ -61,6 +61,14 @@
             <satLevel>1</satLevel>
         </variables>
     </colorScheme>
+    <colorScheme name="vhs">
+        <variables>
+            <background>./vhs.mp4</background>
+            <backgroundImage>./vhs.webp</backgroundImage>
+            <outlineColor>000000</outlineColor>
+            <satLevel>1</satLevel>
+        </variables>
+    </colorScheme>
 </variant>
 <variant name="masktextsys, maskgridsys, logotextsys, logogridsys">
 
@@ -95,6 +103,14 @@
             <backgroundImage>./retroback.webp</backgroundImage>
             <outlineColor>000000</outlineColor>
             <satLevel>0.5</satLevel>
+        </variables>
+    </colorScheme>
+     <colorScheme name="vhs">
+        <variables>
+            <background>./vhs.mp4</background>
+            <backgroundImage>./vhs.webp</backgroundImage>
+            <outlineColor>000000</outlineColor>
+            <satLevel>1</satLevel>
         </variables>
     </colorScheme>
 </variant>
