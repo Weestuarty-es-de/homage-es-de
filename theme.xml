@@ -532,7 +532,7 @@
                 <fontSize>${gameGridFont}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
-                <imageCornerRadius>0.02</imageCornerRadius>
+                <imageCornerRadius>0.005</imageCornerRadius>
                 <zIndex>29</zIndex>
             </grid>
             <image name="maskback">
