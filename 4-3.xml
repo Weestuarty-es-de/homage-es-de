@@ -8,21 +8,21 @@
         <gameDesc>0.04</gameDesc>
     </variables>
 
-<variant name="masktext,maskgrid">
+<variant name="masktext,maskgrid,masktextsys,maskgridsys">
     <view name="system">
         <image name="bottomband">
             <pos>0 0.61</pos>
             <size>1 0.2</size>
             <path>./space.webp</path>
             <color>${backColor}</color>
-            <zIndex>0</zIndex>
+            <zIndex>3</zIndex>
         </image>
         <image name="bottomband2">
             <pos>0 0.0</pos>
             <size>1 0.19</size>
             <path>./space.webp</path>
             <color>${backColor}</color>
-            <zIndex>0</zIndex>
+            <zIndex>3</zIndex>
         </image>
     </view>
 
