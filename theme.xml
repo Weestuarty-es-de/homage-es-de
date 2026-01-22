@@ -267,7 +267,7 @@
                     <fontSize>0.04</fontSize>
                     <rotation>0</rotation>
                     <pos>0.01 0.005</pos>
-                    <size>0.075 0.04</size>
+                    <size>0.1 0.04</size>
                     <origin>0 0</origin>
                     <fontPath>./fonts/sansxb.ttf</fontPath>
                     <horizontalAlignment>center</horizontalAlignment>
@@ -336,7 +336,7 @@
                     <fontSize>0.04</fontSize>
                     <rotation>0</rotation>
                     <pos>0.01 0.005</pos>
-                    <size>0.075 0.04</size>
+                    <size>0.1 0.04</size>
                     <origin>0 0</origin>
                     <fontPath>./fonts/sansxb.ttf</fontPath>
                     <horizontalAlignment>left</horizontalAlignment>
@@ -412,7 +412,7 @@
                     <fontSize>0.04</fontSize>
                     <rotation>0</rotation>
                     <pos>0.01 0.005</pos>
-                    <size>0.075 0.04</size>
+                    <size>0.1 0.04</size>
                     <origin>0 0</origin>
                     <fontPath>./fonts/sansxb.ttf</fontPath>
                     <horizontalAlignment>center</horizontalAlignment>
@@ -532,7 +532,6 @@
                 <fontSize>${gameGridFont}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
-                <imageCornerRadius>0.0075</imageCornerRadius>
                 <zIndex>29</zIndex>
             </grid>
             <image name="maskback">
@@ -565,7 +564,7 @@
                     <fontSize>0.04</fontSize>
                     <rotation>0</rotation>
                     <pos>0.01 0.005</pos>
-                    <size>0.075 0.04</size>
+                    <size>0.1 0.04</size>
                     <origin>0 0</origin>
                     <fontPath>./fonts/sansxb.ttf</fontPath>
                     <horizontalAlignment>center</horizontalAlignment>
