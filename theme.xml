@@ -466,15 +466,21 @@
                 <color>FFFFFF</color>
                 <zIndex>39</zIndex>
             </image>
-            <video name="screenshot">
+            <video name="videog1">
+                    <pos>0 0</pos>
+                    <cropSize>0.6 1</cropSize>
+                    <imageType>none</imageType>
+                    <brightness>1</brightness>
+                    <delay>3</delay>
+                    <zIndex>2</zIndex>
+                </video>
+            <image name="screenshot">
                 <pos>0.275 0.2175</pos>
                 <origin>0.5 0.5</origin>
                 <maxSize>0.375 0.4</maxSize>
                 <imageType>marquee, titlescreen</imageType>
-                <pillarboxes>false</pillarboxes>
-                <scrollFadeIn>true</scrollFadeIn>
-                <zIndex>2</zIndex>
-            </video>
+                <zIndex>3</zIndex>
+            </image>
             <badges name="badges">
                 <pos>0.25 0.63</pos>
                 <size>0.425 0.13</size>
@@ -651,14 +657,21 @@
                 <color>000000</color>
                 <zIndex>39</zIndex>
             </image>
-            <video name="screenshot">
-                <pos>0.21125 0.075</pos>
-                <origin>0.5 0</origin>
-                <pillarboxes>false</pillarboxes>
-                <maxSize>0.4 0.4</maxSize>
-                <imageType>screenshot, titlescreen</imageType>
-                <zIndex>2</zIndex>
-            </video>
+            <video name="videog1">
+                    <pos>0 0</pos>
+                    <cropSize>0.6 1</cropSize>
+                    <imageType>none</imageType>
+                    <brightness>1</brightness>
+                    <delay>3</delay>
+                    <zIndex>2</zIndex>
+                </video>
+            <image name="screenshot">
+                <pos>0.21125 0.2175</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.375 0.4</maxSize>
+                <imageType>marquee, titlescreen</imageType>
+                <zIndex>3</zIndex>
+            </image>
             
             <helpsystem name="help">
                 <textColor>FFFFFF</textColor>
